@@ -9,3 +9,4 @@ A tampermonkey script that enhances your aternos.org experience
 - Highlighted true/falses in server settings
 - AternosEnhanced settings as an additional webpage for aternos.org (https://aternos.org/enhanced)
 - Auto close adblock warning
+- No advertisements
