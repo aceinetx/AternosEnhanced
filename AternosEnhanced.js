@@ -155,7 +155,7 @@ color: blue
     $("a[title$='Настройки']").on("click", function(){
         GM_setValue("fileSettings", "1")
     })
-    if(window.location.href == "https://aternos.org/options"){
+    if(window.location.href == "https://aternos.org/files/server.properties"){
         if(GM_getValue("fileSettings") == "1"){
             $("h1:contains('Файлы')").remove()
             $(".path-bar").remove()
