@@ -8,3 +8,4 @@ A tampermonkey script that enhances your aternos.org experience
 - Highlighted console logs in file explorer![изображение](https://github.com/aceinetx/AternosEnhanced/assets/158546973/a09f4235-4144-4f94-97a2-6a3062a72ece)
 - Highlighted true/falses in server settings
 - AternosEnhanced settings as an additional webpage for aternos.org (https://aternos.org/enhanced)
+- Auto close adblock warning
