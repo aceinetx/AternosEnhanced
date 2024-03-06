@@ -1,5 +1,5 @@
 # AternosEnhanced
-A tampermonkey script that enhances your aternos.org experience (ISSUE: RUSSIAN LANGUAGE ONLY)
+A tampermonkey script that enhances your aternos.org experience (ISSUE: RUSSIAN LANGUAGE ONLY, working on english support)
 ## Features
 - Styles: Exaroton, Aternos ![изображение](https://github.com/aceinetx/AternosEnhanced/assets/158546973/5d690c72-60d5-4f89-a84d-f74ab312a379)
 - Summary file size in file explorer![изображение](https://github.com/aceinetx/AternosEnhanced/assets/158546973/f3c4f6de-4ec3-4bd4-9711-d8eab4f51593)
