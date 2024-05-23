@@ -11,32 +11,9 @@
 /* globals jQuery, $, waitForKeyElements */
 // ==/UserScript==
 
-/*(function($) {
-    //'use strict';
-    $(".QfUrVYMsDYol").click()
-})()
-
-$(document).ready(function($) {
-$(".QfUrVYMsDYol").click()
-})
-*/
-
 (function() {
 
     console.log(window.location.href)
-    //$(".QfUrVYMsDYol").click()
-    /*
-    <div class="header-center">
-
-        <a href="/software" class="btn btn-green btn-small">
-                            <i class="fa fa-random"></i><span class="btn-text">  Exaroton style</span>
-                        </a>
-
-
-    <a href="/software" class="btn btn-green btn-small">
-                            <i class="fa fa-random"></i><span class="btn-text">  Aternos style</span>
-                        </a></div>
-    */
     $(".userlinks").append('<span title="Aternos enhanced style" class="style_label"> Aternos style</span>')
     if(GM_getValue("aternosStyle") == undefined){
         GM_setValue("aternosStyle", "aternos")
@@ -137,13 +114,10 @@ color: blue
             }
         }
     });
-    // <i class="fas fa-file-invoice"></i>
-    // <span class="file-total-size">dwa</span>
     if(total_size != 0){
         $(".files-folder-count").append('<i class="fas fa-file-invoice"></i><span class="file-total-size"></span>')
         $(".file-total-size").html(""+(total_size/size_bytes).toFixed(2)+" "+size_label)
     }
-    //config-option-output-value
 
     $(".config-option-output-value:contains('true')").css({
         color: "green"
@@ -162,7 +136,6 @@ color: blue
         }
     }
 
-    //$(".centertext-text").html("Welcome to Aternos Enhanced!")
     $(".splash-menu").append('<div><a>Aternos Enhanced loaded</a></div>')
     $(".server-b-tutorials").remove()
     $("div[style*='display: flex; height: 99.99628vh']").css({ background: "#2D3943" })
